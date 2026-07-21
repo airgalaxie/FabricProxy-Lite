@@ -1,12 +1,12 @@
 [versions]
 project = "2.12.0"
 java = "25"
-minecraft = "26.1"
+minecraft = "26.2"
 
 # Check on https://fabricmc.net/develop
-fabric_loom="1.15-SNAPSHOT"
-fabric_loader="0.18.5"
-fabric_api="0.144.3+26.1"
+fabric_loom="1.17-SNAPSHOT"
+fabric_loader="0.19.3"
+fabric_api="0.155.2+26.2"
 
 toml4j="0.7.2"
 
