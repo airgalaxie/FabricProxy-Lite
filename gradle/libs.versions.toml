@@ -1,5 +1,5 @@
 [versions]
-project = "2.12.0-SNAPSHOT"
+project = "2.12.1-SNAPSHOT"
 java = "25"
 minecraft = "26.3-snapshot-6"
 
@@ -8,7 +8,7 @@ fabric_loom="1.17-SNAPSHOT"
 fabric_loader="0.19.3"
 fabric_api="0.156.1+26.3"
 
-toml4j="0.7.2"
+toml4j="0.7.3"
 
 [plugins]
 fabric_loom = { id = "net.fabricmc.fabric-loom", version.ref = "fabric_loom" }
@@ -16,4 +16,5 @@ fabric_loom = { id = "net.fabricmc.fabric-loom", version.ref = "fabric_loom" }
 [libraries]
 minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
 fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric_loader" }
-toml4j = { module = "com.moandjiezana.toml:toml4j", version.ref = "toml4j" }
+#toml4j = { module = "com.moandjiezana.toml:toml4j", version.ref = "toml4j" }
+toml4j = { module = "io.hotmoka:toml4j", version.ref = "toml4j" }
