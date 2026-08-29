@@ -35,7 +35,7 @@ tasks.named<ProcessResources>("processResources") {
     val props = mapOf(
         "version" to libs.versions.project.get(),
         "java" to libs.versions.java.get(),
-        "minecraft" to "26.3-alpha.6", //libs.versions.minecraft.get(),
+        "minecraft" to libs.versions.minecraft.fabric.get(),
         "fabric_loader" to libs.versions.fabric.loader.get(),
         "fabric_api" to libs.versions.fabric.api.get()
     )

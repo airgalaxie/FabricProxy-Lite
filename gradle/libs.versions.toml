@@ -1,20 +1,20 @@
 [versions]
 project = "2.12.1-SNAPSHOT"
 java = "25"
-minecraft = "26.3-snapshot-6"
+minecraft = "26.3-snapshot-10"
+minecraft-fabric = "26.3-alpha.10"
 
 # Check on https://fabricmc.net/develop
-fabric_loom="1.17-SNAPSHOT"
-fabric_loader="0.19.3"
-fabric_api="0.156.1+26.3"
+fabric-loom = "1.17-SNAPSHOT"
+fabric-loader = "0.19.3"
+fabric-api = "0.158.3+26.3"
 
-toml4j="0.7.3"
+toml4j = "0.7.3"
 
 [plugins]
-fabric_loom = { id = "net.fabricmc.fabric-loom", version.ref = "fabric_loom" }
+fabric-loom = { id = "net.fabricmc.fabric-loom", version.ref = "fabric-loom" }
 
 [libraries]
 minecraft = { module = "com.mojang:minecraft", version.ref = "minecraft" }
-fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric_loader" }
-#toml4j = { module = "com.moandjiezana.toml:toml4j", version.ref = "toml4j" }
+fabric-loader = { module = "net.fabricmc:fabric-loader", version.ref = "fabric-loader" }
 toml4j = { module = "io.hotmoka:toml4j", version.ref = "toml4j" }
